@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
+  background-color: #fff;
   color: #0000FF;
+  font-size: 16px;
+  line-height: 1.2em;
 }
 
 nav {
@@ -8,6 +10,17 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: line-through;
+  text-decoration-color: #ffff00;
+  line-weight: 1em;
 }
 
 .logo {
@@ -49,4 +62,47 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+figure {
+  padding-bottom: 20px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #000;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 2em;
+  color: #000;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #333;
+}
+
+.author {
+  font-size: 0.9em;
+  line-height: 3em;
+  color: #000;
+}
+
+.story-text {
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #000;
+}
+
+.quote p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-style: italic;
+  font-weight: bold;
 }
